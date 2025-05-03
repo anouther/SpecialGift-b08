@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I love you, kak gian').split('');
+        const titles = ('I love you').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "I love you when you’re smiling, quiet, or even unsure. I just love you for being yourself in your best and your worst. semoga Tuhan mengizinkan aku buat terus menyayangimu, dalam versi terbaikku, untuk waktu yang sangat, sangat lama. ";
+            subtitle.innerText = "Without realizing it, I've fallen this far with you. And here I bring beautiful flowers for beautiful person.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
